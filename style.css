@@ -1,0 +1,147 @@
+p {
+    margin: 0;
+}
+
+.header {
+    margin: 20px 64px 0 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 159px;
+    height: 32px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 0 0 18px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.location img {
+    width: 13px;
+    height: 16px;
+    padding-right: 7px;
+}
+
+.header__login {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 24px 0 18px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+
+.header__login img {
+    width: 16px;
+    height: 16px;
+    padding-right: 7px;
+}
+
+.header__button-ad {
+    border: 1px solid #233F8A;
+    border-radius: 4px;
+    background-color: white;
+    color: #233F8A;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.navigation {
+    margin: 23px 64px 0 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation__list-item {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.navigation__list-item:last-child {
+    margin-right: 0;
+}
+
+/* .navigation__buttons {
+    position: relative;
+} */
+
+.navigation__button {
+    /* position: absolute; */
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    padding: 0px;
+    margin-right: 20px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    filter: grayscale(100%);
+    }
+
+.navigation__button:hover {
+    color: #233F8A;
+    filter: grayscale(0);
+}
+
+.navigation__button:last-child {
+    margin-right: 0;
+}
+
+.navigation__button img:last-child {
+    width: 19px;
+    height: 19px;
+    margin-right: 11px;
+}
+
+.navigation__button img:hover {
+    background-image: url(img/bxs-heart.svg);
+}
+
+h1 {
+    margin: 40px 0 0 64px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    white-space: pre-line;
+}
