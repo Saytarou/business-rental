@@ -1,3 +1,7 @@
+body {
+    background: #F8F9FC;
+}
+
 p {
     margin: 0;
 }
@@ -98,12 +102,7 @@ p {
     margin-right: 0;
 }
 
-/* .navigation__buttons {
-    position: relative;
-} */
-
 .navigation__button {
-    /* position: absolute; */
     cursor: pointer;
     background-color: inherit;
     border: none;
@@ -144,4 +143,47 @@ h1 {
     font-size: 40px;
     line-height: 120%;
     white-space: pre-line;
+}
+
+.filter_tabs {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 64px;
+    width: 216px;
+    height: 68px;
+    padding: 16px 12px 0px 12px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.filter_tabs button {
+    width: 96px;
+    height: 40px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    filter: grayscale(100%);
+    border: 1px solid #233F8A;
+    margin: 0;
+    }
+
+.filter_tabs button:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.filter_tabs button:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.filter_tabs button:hover {
+    color: #233F8A;
+    filter: grayscale(0);
+}
+.filter_tabs button:active {
+    color: #233F8A;
+    filter: grayscale(0);
 }
